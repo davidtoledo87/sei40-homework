@@ -1,0 +1,115 @@
+body{
+  background-color: navy;
+  margin: 0;
+}
+
+header{
+  border: 1px solid red;
+  height: 70px;
+  background-color: lavender;
+  color: #AAAAAA;
+  padding: 6px;
+}
+
+.main{
+  border: 1px solid red;
+  height:50%;
+  width:100%;
+}
+
+header h1{
+  display:inline-block;
+  font-size: 21px;
+}
+
+header img {
+  margin-top: 6px;
+}
+
+header ul{
+  position: relative;
+  right: 0;
+}
+
+.left, .right{
+  border:1px solid yellow;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width:40%;
+  text-align: right;
+}
+
+.right ul{
+    border: 1px dashed green;
+    display:inline;
+    padding: 0;
+
+}
+
+.right a{
+  color:brown;
+  text-decoration: none;
+}
+
+.right a:hover{
+  text-decoration: underline;
+}
+
+header .right li{
+  border: 1px solid red;
+  display: inline;
+  list-style-type: none;
+  margin-left: 12px
+}
+
+.sidebar, .content{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+.sidebar{
+  border : 1px solid red;
+  width:20%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.sidebar p{
+  text-align: justify;
+
+}
+
+
+.sidebar img{
+  max-width: 90%;
+  margin: 8px 10px
+}
+
+.content  {
+  border: 1px solid yellow;
+  width: 78%;
+  vertical-align: top;
+}
+
+.content img {
+  float:right;
+
+}
+
+.content img:hover{
+  border: 2px solid red;
+  transition: 2s;
+  transform: rotate(180deg) scale(2.0);
+  filter:hue-rotate(100deg);
+
+}

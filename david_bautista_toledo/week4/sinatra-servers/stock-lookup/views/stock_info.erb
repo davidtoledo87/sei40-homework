@@ -1,0 +1,16 @@
+
+<h2> Stock Lookup Results for  </h2>
+
+<pre>
+  <%=params.to_s %>
+
+  Company name: <%=@company%>
+  Latest price: <%=@price%>
+
+</pre>
+
+    <% @names.each do |name| %>
+    <p>
+    Name: <%= name %>
+    </p>
+    <% end %>

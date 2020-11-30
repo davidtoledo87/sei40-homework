@@ -1,0 +1,31 @@
+
+p{
+  font-size: 14pt;
+  background-color: hotpink;
+}
+
+
+form{
+  border: 12px solid red;
+}
+
+#first_Para{
+  background-color: red;
+}
+
+p.larger{
+  font-size: : 18pt;
+  border:12px dotted yellow;
+}
+
+p strong{
+  color: #FF0000;
+}
+
+li, img, a{
+  border: 10px solid red;
+}
+
+/* *{
+  border: 1px solid orange;
+} */

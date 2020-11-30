@@ -1,0 +1,22 @@
+
+<h2> Movie Results for  </h2>
+
+<pre>
+  <%=params.to_s %>
+
+</pre>
+    the total movies of selected title are <%= @total_results %>
+    <p>
+    total pages <%= @total_pages %>
+
+
+
+    <p>
+    <% @c.each do |movie| %>
+    <p>
+    Name: <%= movie['title'] %>
+
+    Released on  <%= movie['release_date']%>
+
+    </p>
+    <% end %>
